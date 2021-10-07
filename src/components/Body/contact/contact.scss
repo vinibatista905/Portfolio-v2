@@ -37,6 +37,14 @@
 .download a {
   text-decoration: none;
   color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cloud{
+  margin-right: 0.2rem;
 }
 
 .download:hover{
