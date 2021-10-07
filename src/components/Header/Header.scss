@@ -26,12 +26,20 @@
   display: flex;
 }
 
+.logo a {
+  display: flex;
+  font-size: 36px;
+  color: #a745ea;
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .logo {
   display: flex;
   font-size: 36px;
-  color: #A745EA;
+  color: #a745ea;
   font-weight: 800;
-  
+  text-decoration: none;
 }
 
 .logo-img {
@@ -47,11 +55,16 @@
   .web-menu {
     display: none;
   }
-  .logo {
-    font-size: 24px;
-  }
 
   .logo-img {
     height: 28px;
+  }
+
+  .logo a {
+    display: flex;
+    font-size: 24px;
+    color: #a745ea;
+    font-weight: 800;
+    text-decoration: none;
   }
 }

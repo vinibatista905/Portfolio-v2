@@ -6,7 +6,7 @@
   margin: 16px 0px;
   padding: 8px 0px;
 
-  animation: Slide_Left 1.5s ease;
+  animation: Slide_Left 3s ease;
 }
 
 .project-photo {
@@ -52,6 +52,7 @@
   :hover{
     background-color: #A745EA;
     color: #fff;
+    transition: all 0.2s ease-in-out;
 }
 }
 
@@ -101,20 +102,20 @@
 
 // ANIMATIONS
 
-@keyframes Slide_Left{
-  0%{
-      transform: translateX(-500px);
-  }
-  100%{
-      transform: translateY(0);
-  }
-}
+// @keyframes Slide_Left{
+//   0%{
+//       transform: translateX(-500px);
+//   }
+//   100%{
+//       transform: translateY(0);
+//   }
+// }
 
-@keyframes Slide_Right{
-  0%{
-      transform: translateX(500px);
-  }
-  100%{
-      transform: translateY(0);
-  }
-}
+// @keyframes Slide_Right{
+//   0%{
+//       transform: translateX(500px);
+//   }
+//   100%{
+//       transform: translateY(0);
+//   }
+// }

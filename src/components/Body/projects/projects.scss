@@ -2,4 +2,15 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+
+    animation: Slide_Left 3s ease;
 }
+
+// @keyframes Slide_Left{
+//     0%{
+//         transform: translateX(-500px);
+//     }
+//     100%{
+//         transform: translateY(0);
+//     }
+//   }

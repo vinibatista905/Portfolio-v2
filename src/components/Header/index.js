@@ -12,7 +12,7 @@ function Header() {
     <div className="header">
       <div className="logo">
         <img className='logo-img' src={require('../../assets/code-2.png').default} />
-        Portfolio</div>
+        <a href='/'>Portfolio</a></div>
       <div className="menu">
         <div className="web-menu">
           <Web />

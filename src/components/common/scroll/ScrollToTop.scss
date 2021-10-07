@@ -1,0 +1,54 @@
+.btn-wrap {
+  width: 100%;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.btn-show {
+  opacity: 1;
+  transition: 0.3s ease;
+  background-color: #92e3a9;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-hidden {
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #92e3a9;
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.btn-show:hover {
+  background-color: #a745ea;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-icon {
+  color: #000;
+}
+
+@media only screen and (max-width: 720px){
+  .btn-wrap {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+}

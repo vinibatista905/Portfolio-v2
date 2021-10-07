@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./project-card.scss";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import { FiGlobe } from "react-icons/fi";
 import { GrGithub } from "react-icons/gr";
 
 function ProjectCard({ project }) {
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, [])
+
   return (
-    <div className="project-card">
+    <div data-aos="fade-right" className="project-card">
       <div className="project-info">
         <label className="project-title">{project.title}</label>
         <div className="project-links">

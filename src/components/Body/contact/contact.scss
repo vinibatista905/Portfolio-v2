@@ -39,6 +39,16 @@
   color: #000;
 }
 
+.download:hover{
+  background-color: #a745ea;
+  transition: all 0.2s ease-in-out;
+}
+
+.download a:hover{
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
 @media only screen and (max-width: 720px) {
   .contact-container {
     flex-direction: column;

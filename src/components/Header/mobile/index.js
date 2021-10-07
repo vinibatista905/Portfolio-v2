@@ -13,21 +13,21 @@ function Mobile({ isOpen, setIsOpen }) {
       </div>
       <div className='mobile-options'>
       <div className='mobile-option'>
-                <a href='#projects'>
+                <a href='#projects' onClick={() => setIsOpen(!isOpen)}>
                 <CgWebsite className='option-icon' />Projetos
                 </a>
             </div>
-            <div className='mobile-option'>
+            <div className='mobile-option' onClick={() => setIsOpen(!isOpen)}>
                 <a href='#skills'>
                 <FaLaptopCode className='option-icon' />Skills
                 </a>
             </div>
-            <div className='mobile-option'>
+            <div className='mobile-option' onClick={() => setIsOpen(!isOpen)}>
                 <a href='#work'>
                 <CgBriefcase className='option-icon' />Serviços
                 </a>
             </div>
-            <div className='mobile-option'>
+            <div className='mobile-option' onClick={() => setIsOpen(!isOpen)}>
                 <a href='#contact'>
                 <FaRegUser className='option-icon' />Contato
                 </a>

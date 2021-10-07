@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./contact.scss";
 import Separator from "../../common/separator";
 import SocialContact from "../../common/social-contact";
 import {AiOutlineCloudDownload} from 'react-icons/ai';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  useEffect(() =>{
+    Aos.init({duration: 2000});
+  }, [])
   return (
-    <div className="contact">
+    <div data-aos="fade-up" className="contact">
       <Separator />
       <labe className="section-title">Contato</labe>
       <div className="contact-container">
