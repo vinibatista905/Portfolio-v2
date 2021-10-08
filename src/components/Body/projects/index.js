@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 
 function Projects() {
     useEffect(() =>{
-        Aos.init({duration: 4000});
+        Aos.init({duration: 2000});
       }, [])
 
     const data = ProjectData;
