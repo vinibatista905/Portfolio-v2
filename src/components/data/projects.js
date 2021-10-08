@@ -47,7 +47,7 @@ export const ProjectData = [
     {
         id:6,
         title:"Magali Art's Laços",
-        about: "Uma landing page criada para minha Magali Art's Laços divulgar seu trabalho artístico.",
+        about: "Uma landing page criada para Magali Art's Laços divulgar seu trabalho artístico.",
         tags: ["ReactJS", "React Hooks", "React Router", "Styled-Components"],
         demo: 'https://magali-arts-lacos.netlify.app/',
         github: 'https://github.com/vinibatista905/Magali-Arts-Lacos',
