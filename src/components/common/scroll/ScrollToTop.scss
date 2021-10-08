@@ -1,7 +1,10 @@
 .btn-wrap {
   width: 100%;
-  display: inline-flex;
-  justify-content: flex-end;
+  display: inline-block;
+  margin-top: 90vh;
+  margin-left: 75vw;
+
+  position: fixed;
 }
 
 .btn-show {
@@ -32,7 +35,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .btn-show:hover {
@@ -45,10 +47,15 @@
   color: #000;
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 720px) {
   .btn-wrap {
     width: 100%;
-    display: inline-flex;
-    justify-content: center;
+    display: inline-block;
+    margin-top: 90vh;
+    margin-left: 85vw;
+    position: fixed;
   }
 }
+
+
+
