@@ -3,7 +3,6 @@
   display: inline-block;
   margin-top: 90vh;
   margin-left: 75vw;
-
   position: fixed;
 }
 
@@ -47,15 +46,14 @@
   color: #000;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1024px) {
   .btn-wrap {
-    width: 100%;
-    display: inline-block;
-    margin-top: 90vh;
-    margin-left: 85vw;
-    position: fixed;
+    margin-left: 89vw;
   }
 }
 
-
-
+@media only screen and (max-width: 720px) {
+  .btn-wrap {
+    margin-left: 85vw;
+  }
+}

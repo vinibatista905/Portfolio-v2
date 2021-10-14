@@ -32,7 +32,7 @@ const ScrollToTop = () => {
   return (
     <div className="btn-wrap">
       <button type="button" onClick={scrollToTop} className={isVisible ? 'btn-show' : 'btn-hidden'}>
-        <BiUpArrowAlt className="=btn-icon" />
+      <BiUpArrowAlt className="=btn-icon" />
       </button>
     </div>
   );
