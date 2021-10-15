@@ -1,26 +1,22 @@
 body {
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
- 
+  font-family: "Work Sans", sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 1rem;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #c7cace;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: #92e3a9;
-    border-radius: 100vw;
-    border: 0.15rem solid #71af84
-    
-    
+  border-radius: 100vw;
+  border: 0.15rem solid #71af84;
 }
-::-webkit-scrollbar-thumb:hover{
-  background: #71af84;;
-  border: 0.15rem solid #92e3a9
-    
+::-webkit-scrollbar-thumb:hover {
+  background: #71af84;
+  border: 0.15rem solid #92e3a9;
 }
