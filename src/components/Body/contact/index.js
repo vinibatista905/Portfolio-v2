@@ -2,14 +2,14 @@ import React, { useEffect } from "react";
 import "./contact.scss";
 import Separator from "../../common/separator";
 import SocialContact from "../../common/social-contact";
-import {AiOutlineCloudDownload} from 'react-icons/ai';
+import { AiOutlineCloudDownload } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Contact() {
-  useEffect(() =>{
-    Aos.init({duration: 2000});
-  }, [])
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div data-aos="fade-up" className="contact">
       <Separator />
@@ -22,11 +22,14 @@ function Contact() {
           </p>
           <SocialContact />
         </div>
-        <div className='download'>
-            <a download href={require('../../../assets/CV - Vinicius Batista.pdf').default}>
-               <AiOutlineCloudDownload className='cloud' />
-                Baixar Currículo
-            </a>
+        <div className="download">
+          <a
+            download
+            href={require("../../../assets/CV - Vinicius Batista.pdf").default}
+          >
+            <AiOutlineCloudDownload className="cloud" />
+            Baixar Currículo
+          </a>
         </div>
       </div>
     </div>
